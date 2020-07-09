@@ -1,0 +1,57 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: tomato;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.brand {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin : 0px 0px 0px 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0px;
+}
+form > label {
+    font-size: 20px;
+    margin-left: 20px;
+
+}
+form > input {
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+form > div {
+    text-align: center;
+}
+form > div > button {
+        width: 50%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: #85cdfc;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+

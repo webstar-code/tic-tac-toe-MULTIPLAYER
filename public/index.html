@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="brand">tic-tac-toe <small>with friends</small></h2>
+    </header>
+    <form class="form" action="game.html">
+        <label for="username">Username</label>
+        <input type="text" name="username" />
+
+        <label for="room_no">Enter Room No.</label>
+        <input type="text" name="room_no" id="room_no">
+        <div>
+            <button class="enter" type="submit">Enter Room</button>
+            <div>OR</div>
+            <button class="enter-room" type="submit" onclick="CreateRandomRoom()">
+                Create Room
+            </button>
+        </div>
+    </form>
+
+    <script>
+        const CreateRandomRoom = () => {
+            document.getElementById('room_no').value = Math.floor(Math.random() * 10000);
+        }
+
+
+    </script>
+</body>
+
+</html>

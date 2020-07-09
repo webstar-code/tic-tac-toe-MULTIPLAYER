@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body>
+    <header>
+        <h2 class="brand">tic-tac-toe <small>with friends</small></h2>
+    </header>
+    <div class="invite">
+        <!-- AddToAny BEGIN -->
+        <div class="a2a_kit a2a_kit_size_32 a2a_default_style" style="display:flex; margin: 10px 0px; align-items: center;">
+            <a class="a2a_dd dd" href="https://www.addtoany.com/share"></a>
+            <a></a>
+            <a></a>
+            <a class="a2a_button_whatsapp"></a>
+        </div>
+        <!-- AddToAny END -->
+        <!-- <p">Invite and share this room no. <u>2345</u> to connect</p> -->
+    </div>
+    <section class="friends">
+        <div class="player-1"></div>
+        <div class="player-2"></div>
+    </section>
+    <section>
+        <div class="WinnerDiv"></div>
+    </section>
+    <section>
+        <div class="board">
+            <button class="block one"></button>
+            <button class="block two"></button>
+            <button class="block three"></button>
+            <button class="block four"></button>
+            <button class="block five"></button>
+            <button class="block six"></button>
+            <button class="block seven"></button>
+            <button class="block eight"></button>
+            <button class="block nine"></button>
+        </div>
+    </section>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- 
+
+      <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+            <ul class="links">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_email"></a>
+            <a class="a2a_button_whatsapp"></a>
+        </ul>
+        </div>
+ -->

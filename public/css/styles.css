@@ -1,0 +1,153 @@
+html ,body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+
+header {
+    background-color: tomato;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.brand {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin : 0px 0px 0px 10px;
+}
+.brand > small {
+    font-size: 14px;
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.friends > div {
+    width: 50%;
+    text-align: center;
+  border: 1px solid black;
+}
+
+.player-1 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.player-2 {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.board {
+    width: 300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(3,1fr); */
+
+}
+
+.block {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.invite {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #85cdfc;
+    /* align-items: center; */
+    width: 95%;
+    margin:0px auto;
+}
+.invite > p {
+    margin: 10px 0px 10px 10px;
+}
+.WinnerDiv {
+    width: 80%;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    background-color: greenyellow;
+    margin: 10px auto;
+}
+.WinnerDiv > p{
+    margin: 0;
+}
+.WinnerDiv a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        display: flex;
+        background-color: tomato;
+        padding: 10px 0;
+        margin-bottom: 20px;
+    }
+    
+   .brand {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 0px 10px;
+   }
+
+   .invite {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: #85cdfc;
+    width: 95%;
+    margin:0px auto;
+    font-size: 16px;
+    padding: 10px
+}
+.invite > p {
+    margin: 10px 0px 10px 10px;
+    
+}
+
+.friends {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+  
+}
+
+.friends > div {
+    width: 50%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+  border: 1px solid black;
+}
+
+.WinnerDiv {
+    width: 95%;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    background-color: greenyellow;
+    margin: 10px auto;
+}
+
+}
